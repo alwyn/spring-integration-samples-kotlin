@@ -1,0 +1,12 @@
+[versions]
+spring-framework = "6.0.7"
+spring-integration = "6.0.3"
+kotlin = "1.8.10"
+
+[libraries]
+spring-framework-bom = { module = "org.springframework:spring-framework-bom", version.ref = "spring-framework" }
+spring-integration-bom = { module = "org.springframework.integration:spring-integration-bom", version.ref = "spring-integration" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+
+[plugins]
+
